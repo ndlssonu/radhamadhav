@@ -1,0 +1,41 @@
+Instructions for Setup
+Create Project Folder: In Visual Studio Code, create a new folder (e.g., cow_shelter_website).
+File Structure:
+Save index.html, styles.css, and script.js in the root folder.
+Create a pics folder and add images: bg.jpeg, cow1.jpeg to cow10.jpeg, and upi_scanner.jpeg.
+Images: Ensure all images are in the pics folder with the exact names specified. The background image (bg.jpeg) should be a high-resolution image suitable for a full-screen background. Cow images should be clear and appropriately sized (e.g., 300x200px). The UPI scanner image should be a square QR code image (e.g., 200x200px).
+Run the Website: Use Visual Studio Code's Live Server extension to preview the website locally, or open index.html in a browser.
+Database: The website uses localStorage to simulate a database for:
+Donation Givers: Stores name, email, amount, and date.
+General Public: Stores name, email/mobile, and password for public users.
+Administration Team: Stores username and password (default: admin, admin123).
+Organization Work Timeline: Stores events and dates.
+Accessibility:
+Public users can access Home, About, and Gallery without login.
+Donation section requires public login.
+Admin panel requires admin login and allows managing the timeline.
+Language Support: Toggle between English and Hindi using the language buttons at the top-right corner.
+Transparent Buttons: All buttons and links have a semi-transparent background with a hover effect, as specified.
+Notes
+The donation form records details in localStorage and prompts users to scan the UPI QR code for payment.
+Admin login uses a simple username/password check. For production, replace localStorage with a secure backend database and authentication system.
+The website is responsive, with a grid layout for the gallery and flexible login boxes.
+Ensure the pics folder contains all required images to avoid broken image links.
+For a production environment, consider adding a secure backend (e.g., Node.js, Firebase) for authentication and data storage, and host the images on a server or CDN.
+Let me know if you need further assistance or modifications!
+
+
+
+
+
+
+
+How can Grok help?
+
+
+DeepSearch
+
+
+Think
+
+Grok 3

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radha Maadhav Gav Seva</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="language-toggle">
+        <button id="lang-en" class="lang-btn transparent-btn active" onclick="changeLanguage('en')">English</button>
+        <button id="lang-hi" class="lang-btn transparent-btn" onclick="changeLanguage('hi')">हिन्दी</button>
+    </div>
+
+    <header>
+        <h1 data-lang-en="Radha Maadhav Gav Seva Evam Jan Kalyaan Samiti" data-lang-hi="राधा माधव गौ सेवा एवम जन कल्याण समिति">Radha Maadhav Gav Seva Evam Jan Kalyaan Samiti</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="transparent-btn" data-lang-en="Home" data-lang-hi="होम">Home</a></li>
+                <li><a href="#about" class="transparent-btn" data-lang-en="About" data-lang-hi="हमारे बारे में">About</a></li>
+                <li><a href="#gallery" class="transparent-btn" data-lang-en="Gallery" data-lang-hi="गैलरी">Gallery</a></li>
+                <li><a href="#donate" class="transparent-btn" data-lang-en="Donate" data-lang-hi="दान करें">Donate</a></li>
+                <li><a href="#timeline" class="transparent-btn" data-lang-en="Timeline" data-lang-hi="समयरेखा">Timeline</a></li>
+                <li><a href="#login" class="transparent-btn" data-lang-en="Login/Signup" data-lang-hi="लॉगिन/साइनअप">Login/Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2 data-lang-en="Welcome to Our Cow Shelter" data-lang-hi="हमारे गौशाला में आपका स्वागत है">Welcome to Our Cow Shelter</h2>
+        <p data-lang-en="Dedicated to the care and protection of cows in Akauri, Madhya Pradesh." data-lang-hi="अकौरी, मध्य प्रदेश में गायों की देखभाल और संरक्षण के लिए समर्पित।">Dedicated to the care and protection of cows in Akauri, Madhya Pradesh.</p>
+    </section>
+
+    <section id="about">
+        <h2 data-lang-en="About Us" data-lang-hi="हमारे बारे में">About Us</h2>
+        <p data-lang-en="Radha Maadhav Gav Seva Evam Jan Kalyaan Samiti is a non-profit organization dedicated to cow welfare and community development in Akauri, Madhya Pradesh." data-lang-hi="राधा माधव गौ सेवा एवम जन कल्याण समिति एक गैर-लाभकारी संगठन है जो अकौरी, मध्य प्रदेश में गौ कल्याण और समुदाय विकास के लिए समर्पित है।">Radha Maadhav Gav Seva Evam Jan Kalyaan Samiti is a non-profit organization dedicated to cow welfare and community development in Akauri, Madhya Pradesh.</p>
+        <p>© 2025 RADHA MAADHAV GAV SEVA EVAM JAN KALYAAN SAMITI AKAURI<br>
+           Address: Village AKAURI, Post RAMPUR, Tehsil NAIGARHI, District MAUGANJ, MADHYA PRADESH, INDIA, PIN-486340<br>
+           Contact: +91 7389597674 | Email: <a href="mailto:santrajsingh2025@gmail.com">santrajsingh2025@gmail.com</a></p>
+    </section>
+
+    <section id="gallery">
+        <h2 data-lang-en="Gallery" data-lang-hi="गैलरी">Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-track">
+                <img src="pics/bg.jpeg" alt="Background">
+                <img src="pics/cow1.jpeg" alt="Cow 1">
+                <img src="pics/cow2.jpeg" alt="Cow 2">
+                <img src="pics/cow3.jpeg" alt="Cow 3">
+                <img src="pics/cow4.jpeg" alt="Cow 4">
+                <img src="pics/cow5.jpeg" alt="Cow 5">
+                <img src="pics/cow6.jpeg" alt="Cow 6">
+                <img src="pics/cow7.jpeg" alt="Cow 7">
+                <img src="pics/cow8.jpeg" alt="Cow 8">
+                <img src="pics/cow9.jpeg" alt="Cow 9">
+                <img src="pics/cow10.jpeg" alt="Cow 10">
+            </div>
+        </div>
+    </section>
+
+    <section id="donate">
+        <h2 data-lang-en="Support Our Cause" data-lang-hi="हमारे उद्देश्य का समर्थन करें">Support Our Cause</h2>
+        <p data-lang-en="Your donations help us provide food, shelter, and medical care for our cows." data-lang-hi="आपका दान हमारी गायों के लिए भोजन, आश्रय और चिकित्सा देखभाल प्रदान करने में मदद करता है।">Your donations help us provide food, shelter, and medical care for our cows.</p>
+        <div class="image-container">
+            <img src="pics/upi_scanner.jpeg" alt="UPI Scanner" class="upi-scanner">
+            <img src="pics/donation_side_image.jpeg" alt="Donation Image" class="side-image">
+        </div>
+        <p data-lang-en="Scan the UPI QR code to donate." data-lang-hi="दान करने के लिए UPI QR कोड स्कैन करें।">Scan the UPI QR code to donate.</p>
+        <form id="donation-form">
+            <input type="text" id="donor-name" placeholder="Your Name" data-lang-en="Your Name" data-lang-hi="आपका नाम">
+            <input type="email" id="donor-email" placeholder="Your Email" data-lang-en="Your Email" data-lang-hi="आपका ईमेल">
+            <input type="number" id="donor-amount" placeholder="Donation Amount" data-lang-en="Donation Amount" data-lang-hi="दान राशि">
+            <button type="submit" class="transparent-btn" data-lang-en="Submit Donation" data-lang-hi="दान जमा करें">Submit Donation</button>
+        </form>
+    </section>
+
+    <section id="timeline">
+        <h2 data-lang-en="Our Work Timeline" data-lang-hi="हमारी कार्य समयरेखा">Our Work Timeline</h2>
+        <ul id="timeline-list"></ul>
+    </section>
+
+    <section id="login">
+        <h2 data-lang-en="Login/Signup" data-lang-hi="लॉगिन/साइनअप">Login/Signup</h2>
+        <div class="login-container">
+            <div class="login-box">
+                <h3 data-lang-en="Admin Login" data-lang-hi="प्रशासक लॉगिन">Admin Login</h3>
+                <form id="admin-login-form">
+                    <input type="text" id="admin-username" placeholder="Username" data-lang-en="Username" data-lang-hi="उपयोगकर्ता नाम">
+                    <input type="password" id="admin-password" placeholder="Password" data-lang-en="Password" data-lang-hi="पासवर्ड">
+                    <button type="submit" class="transparent-btn" data-lang-en="Login" data-lang-hi="लॉगिन">Login</button>
+                </form>
+            </div>
+            <div class="login-box">
+                <h3 data-lang-en="Public Signup" data-lang-hi="सार्वजनिक साइनअप">Public Signup</h3>
+                <form id="public-signup-form">
+                    <input type="text" id="public-name" placeholder="Name" data-lang-en="Name" data-lang-hi="नाम">
+                    <input type="email" id="public-email" placeholder="Email or Mobile" data-lang-en="Email or Mobile" data-lang-hi="ईमेल या मोबाइल">
+                    <input type="password" id="public-password" placeholder="Password" data-lang-en="Password" data-lang-hi="पासवर्ड">
+                    <button type="submit" class="transparent-btn" data-lang-en="Signup" data-lang-hi="साइनअप">Signup</button>
+                </form>
+            </div>
+            <div class="login-box">
+                <h3 data-lang-en="Public Login" data-lang-hi="सार्वजनिक लॉगिन">Public Login</h3>
+                <form id="public-login-form">
+                    <input type="email" id="public-login-email" placeholder="Email or Mobile" data-lang-en="Email or Mobile" data-lang-hi="ईमेल या मोबाइल">
+                    <input type="password" id="public-login-password" placeholder="Password" data-lang-en="Password" data-lang-hi="पासवर्ड">
+                    <button type="submit" class="transparent-btn" data-lang-en="Login" data-lang-hi="लॉगिन">Login</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="admin-panel" style="display: none;">
+        <h2 data-lang-en="Admin Panel" data-lang-hi="प्रशासक पैनल">Admin Panel</h2>
+        <h3 data-lang-en="Manage Timeline" data-lang-hi="समयरेखा प्रबंधन">Manage Timeline</h3>
+        <form id="timeline-form">
+            <input type="text" id="timeline-event" placeholder="Event Description" data-lang-en="Event Description" data-lang-hi="घटना विवरण">
+            <input type="date" id="timeline-date">
+            <button type="submit" class="transparent-btn" data-lang-en="Add Event" data-lang-hi="घटना जोड़ें">Add Event</button>
+        </form>
+        <h3 data-lang-en="Admin Team" data-lang-hi="प्रशासक टीम">Admin Team</h3>
+        <ul id="admin-team-list"></ul>
+    </section>
+
+    <footer>
+        <p>© 2025 RADHA MAADHAV GAV SEVA EVAM JAN KALYAAN SAMITI AKAURI</p>
+        <p data-lang-en="Location: Village AKAURI, Post RAMPUR, Tehsil NAIGARHI, District MAUGANJ, MADHYA PRADESH, INDIA, PIN-486340" data-lang-hi="स्थान: गांव अकौरी, पोस्ट रामपुर, तहसील नईगढ़, जिला मौगंज, मध्य प्रदेश, भारत, पिन-486340">Location: Village AKAURI, Post RAMPUR, Tehsil NAIGARHI, District MAUGANJ, MADHYA PRADESH, INDIA, PIN-486340</p>
+        <p>Contact: +91 7389597674 | Email: <a href="mailto:santrajsingh2025@gmail.com">santrajsingh2025@gmail.com</a></p>
+    </footer>
+</body>
+</html>
